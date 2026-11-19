@@ -1,0 +1,9 @@
+{
+  "format": 1,
+  "name": "test",
+  "description": "xtheos package repository",
+  "keep_versions": 4,
+  "hash": "8531512f05551d99c62904a3932a96f5bb11b0d985ee42da82239f95a739353e",
+  "updated_at": "2026-11-19T14:12:13Z",
+  "packages": {}
+}
