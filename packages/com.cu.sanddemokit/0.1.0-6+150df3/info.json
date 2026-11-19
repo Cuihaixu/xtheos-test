@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "name": "SandDemoKit",
+  "id": "com.cu.sanddemokit",
+  "package": "com.cu.sanddemokit",
+  "version": "0.1.0-6+150df3",
+  "base_version": "0.1.0",
+  "type": "dynamic",
+  "section": "Utilities",
+  "envs": [
+    "rootful",
+    "rootless",
+    "roothide"
+  ],
+  "author": "Cu <cu@iospkg.cn>",
+  "authors": "Cu <cu@iospkg.cn>",
+  "maintainer": "Cu <cu@iospkg.cn>",
+  "description": "Sandbox test framework for xtheos repo validation",
+  "depends": "mobilesubstrate",
+  "git_commit": "150df3",
+  "built_at": "2026-11-19T15:10:14Z",
+  "origin": {
+    "kind": "dist",
+    "from": "/private/tmp/xtheos_sandbox_test/SandDemoKit",
+    "commit": "150df30",
+    "machine": "cu-cu-Mac-mini-035059",
+    "time": "2026-11-19T15:10:14Z"
+  },
+  "install_name": "/usr/lib/SandDemoKit.framework/SandDemoKit",
+  "hash": "8e188abf3dfbd7b49ae7855e726e5cf314f96a3bdc41a99cf21b610a75d41a41",
+  "has_framework": true,
+  "has_skills": false,
+  "release_notes": "# SandDemoKit 0.1.0\n\n## 新功能\n- 项目脚手架初始化创建: SandDemoKit\n\n## 改进\n- 建立标准编译与三环境打包流水线\n\n## 修复\n- 无\n\n## 升级与兼容性\n- 支持 iOS 14.0 ~ 17.x (兼容 rootful、rootless 与 roothide 三种环境)",
+  "environments": {
+    "rootful": {
+      "arch": "iphoneos-arm",
+      "depends": [
+        "mobilesubstrate"
+      ],
+      "deb": "debs/rootful.deb",
+      "size": 4630,
+      "sha256": "8c69179e3044636141897895de7d1cc11c7d573d946075abca57d9ec53fe009a"
+    },
+    "rootless": {
+      "arch": "iphoneos-arm64",
+      "depends": [
+        "ellekit"
+      ],
+      "deb": "debs/rootless.deb",
+      "size": 4666,
+      "sha256": "a5ae3307168f357e4a4e0aa8ad619d174f2ab18065965e13ac693ff8888560ff"
+    },
+    "roothide": {
+      "arch": "iphoneos-arm64e",
+      "depends": [
+        "ellekit"
+      ],
+      "deb": "debs/roothide.deb",
+      "size": 4626,
+      "sha256": "7ecd46a3fd56abcf63955363c6caad9fc6cf0e6dbaecb8f7caa4136d54aad165"
+    }
+  }
+}
