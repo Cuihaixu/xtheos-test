@@ -4,7 +4,7 @@
   "description": "xtheos package repository",
   "keep_versions": 4,
   "hash": "2be6f9c9f4053bd3e9f909e06eddc3f9bece21fd64c13a650e0e7997aff94829",
-  "updated_at": "2026-11-19T15:10:14Z",
+  "updated_at": "2026-11-19T15:10:44Z",
   "packages": {
     "com.cu.sanddemokit": {
       "id": "com.cu.sanddemokit",
