@@ -3,9 +3,91 @@
   "name": "test",
   "description": "xtheos package repository",
   "keep_versions": 4,
-  "hash": "2be6f9c9f4053bd3e9f909e06eddc3f9bece21fd64c13a650e0e7997aff94829",
-  "updated_at": "2026-11-19T15:11:33Z",
+  "hash": "1ab6f1eb23c72871198d7968826af171b1fd1be89f735779f39f5f71acfb066f",
+  "updated_at": "2026-11-19T15:19:15Z",
   "packages": {
+    "com.cu.clientconsumer": {
+      "id": "com.cu.clientconsumer",
+      "name": "ClientConsumer",
+      "current_version": "0.1.0-4+c11689",
+      "base_version": "0.1.0",
+      "hash": "1bd89ecfcf70793addc91650f1a01dcfec526a553e65f126f59794650dd39e4d",
+      "section": "System",
+      "description": "ClientConsumer package for iOS",
+      "author": "cuihaixu <cuihaixu@126.com>",
+      "maintainer": "cuihaixu <cuihaixu@126.com>",
+      "has_framework": false,
+      "has_skills": false,
+      "release_notes": "# ClientConsumer 0.1.0\n\n## 新功能\n- 项目脚手架初始化创建: ClientConsumer\n\n## 改进\n- 建立标准编译与三环境打包流水线\n\n## 修复\n- 无\n\n## 升级与兼容性\n- 支持 iOS 14.0 ~ 17.x (兼容 rootful、rootless 与 roothide 三种环境)",
+      "environments": {
+        "rootful": {
+          "arch": "iphoneos-arm",
+          "depends": [
+            "mobilesubstrate"
+          ],
+          "deb": "debs/rootful.deb",
+          "size": 4588,
+          "sha256": "2f7010db51a69ec9db9524f0a0d4c64df3e5273bb23a66b2eb4e031c6dc53a8a"
+        },
+        "rootless": {
+          "arch": "iphoneos-arm64",
+          "depends": [
+            "mobilesubstrate"
+          ],
+          "deb": "debs/rootless.deb",
+          "size": 4624,
+          "sha256": "ff0b0643b38e9e478b489f8225fa3aa52dc32c2c8aea28339f87073142253890"
+        },
+        "roothide": {
+          "arch": "iphoneos-arm64e",
+          "depends": [
+            "mobilesubstrate"
+          ],
+          "deb": "debs/roothide.deb",
+          "size": 4594,
+          "sha256": "b55b7bc4967c8ffe3ce1563b1797b674c058ad5e2b7f2230e90c99cf1d22b79d"
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0-4+c11689",
+          "base_version": "0.1.0",
+          "hash": "1bd89ecfcf70793addc91650f1a01dcfec526a553e65f126f59794650dd39e4d",
+          "release_notes": "# ClientConsumer 0.1.0\n\n## 新功能\n- 项目脚手架初始化创建: ClientConsumer\n\n## 改进\n- 建立标准编译与三环境打包流水线\n\n## 修复\n- 无\n\n## 升级与兼容性\n- 支持 iOS 14.0 ~ 17.x (兼容 rootful、rootless 与 roothide 三种环境)",
+          "has_framework": false,
+          "has_skills": false,
+          "environments": {
+            "rootful": {
+              "arch": "iphoneos-arm",
+              "depends": [
+                "mobilesubstrate"
+              ],
+              "deb": "debs/rootful.deb",
+              "size": 4588,
+              "sha256": "2f7010db51a69ec9db9524f0a0d4c64df3e5273bb23a66b2eb4e031c6dc53a8a"
+            },
+            "rootless": {
+              "arch": "iphoneos-arm64",
+              "depends": [
+                "mobilesubstrate"
+              ],
+              "deb": "debs/rootless.deb",
+              "size": 4624,
+              "sha256": "ff0b0643b38e9e478b489f8225fa3aa52dc32c2c8aea28339f87073142253890"
+            },
+            "roothide": {
+              "arch": "iphoneos-arm64e",
+              "depends": [
+                "mobilesubstrate"
+              ],
+              "deb": "debs/roothide.deb",
+              "size": 4594,
+              "sha256": "b55b7bc4967c8ffe3ce1563b1797b674c058ad5e2b7f2230e90c99cf1d22b79d"
+            }
+          }
+        }
+      ]
+    },
     "com.cu.sanddemokit": {
       "id": "com.cu.sanddemokit",
       "name": "SandDemoKit",
