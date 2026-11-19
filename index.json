@@ -4,7 +4,7 @@
   "description": "xtheos package repository",
   "keep_versions": 4,
   "hash": "1ab6f1eb23c72871198d7968826af171b1fd1be89f735779f39f5f71acfb066f",
-  "updated_at": "2026-11-19T15:19:15Z",
+  "updated_at": "2026-11-19T15:19:43Z",
   "packages": {
     "com.cu.clientconsumer": {
       "id": "com.cu.clientconsumer",
