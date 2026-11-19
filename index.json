@@ -3,7 +3,173 @@
   "name": "test",
   "description": "xtheos package repository",
   "keep_versions": 4,
-  "hash": "8531512f05551d99c62904a3932a96f5bb11b0d985ee42da82239f95a739353e",
-  "updated_at": "2026-11-19T14:12:13Z",
-  "packages": {}
+  "hash": "2be6f9c9f4053bd3e9f909e06eddc3f9bece21fd64c13a650e0e7997aff94829",
+  "updated_at": "2026-11-19T15:10:14Z",
+  "packages": {
+    "com.cu.sanddemokit": {
+      "id": "com.cu.sanddemokit",
+      "name": "SandDemoKit",
+      "current_version": "0.1.0-6+150df3",
+      "base_version": "0.1.0",
+      "hash": "8e188abf3dfbd7b49ae7855e726e5cf314f96a3bdc41a99cf21b610a75d41a41",
+      "section": "Utilities",
+      "description": "Sandbox test framework for xtheos repo validation",
+      "author": "Cu <cu@iospkg.cn>",
+      "maintainer": "Cu <cu@iospkg.cn>",
+      "has_framework": true,
+      "has_skills": false,
+      "release_notes": "# SandDemoKit 0.1.0\n\n## 新功能\n- 项目脚手架初始化创建: SandDemoKit\n\n## 改进\n- 建立标准编译与三环境打包流水线\n\n## 修复\n- 无\n\n## 升级与兼容性\n- 支持 iOS 14.0 ~ 17.x (兼容 rootful、rootless 与 roothide 三种环境)",
+      "environments": {
+        "rootful": {
+          "arch": "iphoneos-arm",
+          "depends": [
+            "mobilesubstrate"
+          ],
+          "deb": "debs/rootful.deb",
+          "size": 4630,
+          "sha256": "8c69179e3044636141897895de7d1cc11c7d573d946075abca57d9ec53fe009a"
+        },
+        "rootless": {
+          "arch": "iphoneos-arm64",
+          "depends": [
+            "ellekit"
+          ],
+          "deb": "debs/rootless.deb",
+          "size": 4666,
+          "sha256": "a5ae3307168f357e4a4e0aa8ad619d174f2ab18065965e13ac693ff8888560ff"
+        },
+        "roothide": {
+          "arch": "iphoneos-arm64e",
+          "depends": [
+            "ellekit"
+          ],
+          "deb": "debs/roothide.deb",
+          "size": 4626,
+          "sha256": "7ecd46a3fd56abcf63955363c6caad9fc6cf0e6dbaecb8f7caa4136d54aad165"
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0-6+150df3",
+          "base_version": "0.1.0",
+          "hash": "8e188abf3dfbd7b49ae7855e726e5cf314f96a3bdc41a99cf21b610a75d41a41",
+          "release_notes": "# SandDemoKit 0.1.0\n\n## 新功能\n- 项目脚手架初始化创建: SandDemoKit\n\n## 改进\n- 建立标准编译与三环境打包流水线\n\n## 修复\n- 无\n\n## 升级与兼容性\n- 支持 iOS 14.0 ~ 17.x (兼容 rootful、rootless 与 roothide 三种环境)",
+          "has_framework": true,
+          "has_skills": false,
+          "environments": {
+            "rootful": {
+              "arch": "iphoneos-arm",
+              "depends": [
+                "mobilesubstrate"
+              ],
+              "deb": "debs/rootful.deb",
+              "size": 4630,
+              "sha256": "8c69179e3044636141897895de7d1cc11c7d573d946075abca57d9ec53fe009a"
+            },
+            "rootless": {
+              "arch": "iphoneos-arm64",
+              "depends": [
+                "ellekit"
+              ],
+              "deb": "debs/rootless.deb",
+              "size": 4666,
+              "sha256": "a5ae3307168f357e4a4e0aa8ad619d174f2ab18065965e13ac693ff8888560ff"
+            },
+            "roothide": {
+              "arch": "iphoneos-arm64e",
+              "depends": [
+                "ellekit"
+              ],
+              "deb": "debs/roothide.deb",
+              "size": 4626,
+              "sha256": "7ecd46a3fd56abcf63955363c6caad9fc6cf0e6dbaecb8f7caa4136d54aad165"
+            }
+          }
+        }
+      ]
+    },
+    "com.summer.xtcommand": {
+      "id": "com.summer.xtcommand",
+      "name": "XTCommand",
+      "current_version": "1.3.0",
+      "base_version": "1.3.0",
+      "hash": "98570e33d4cf953a7e46390654bd04a04bfc8f39a6e0210fdc8fd8c0ace7a2f6",
+      "section": "Development",
+      "description": "A dynamic library built with xtheos",
+      "author": "cu",
+      "maintainer": "cu",
+      "has_framework": true,
+      "has_skills": true,
+      "release_notes": "",
+      "environments": {
+        "rootful": {
+          "arch": "iphoneos-arm",
+          "depends": [
+            "mobilesubstrate"
+          ],
+          "deb": "debs/rootful.deb",
+          "size": 1706698,
+          "sha256": "b8eb068f56362d0caee61908fab6a7ce623d18955d9447d7299e770f8fe70895"
+        },
+        "rootless": {
+          "arch": "iphoneos-arm64",
+          "depends": [
+            "ellekit"
+          ],
+          "deb": "debs/rootless.deb",
+          "size": 1706718,
+          "sha256": "17a4869748ef5830e931a0df6eb7acff1543cb1a4569f6cc12d23727711c58d7"
+        },
+        "roothide": {
+          "arch": "iphoneos-arm64e",
+          "depends": [
+            "ellekit"
+          ],
+          "deb": "debs/roothide.deb",
+          "size": 1706698,
+          "sha256": "8d7dbc47be2a38790e9a3c5a0448f2fb9df49b3a0ef536048c47f78c316c3122"
+        }
+      },
+      "versions": [
+        {
+          "version": "1.3.0",
+          "base_version": "1.3.0",
+          "hash": "98570e33d4cf953a7e46390654bd04a04bfc8f39a6e0210fdc8fd8c0ace7a2f6",
+          "release_notes": "",
+          "has_framework": true,
+          "has_skills": true,
+          "environments": {
+            "rootful": {
+              "arch": "iphoneos-arm",
+              "depends": [
+                "mobilesubstrate"
+              ],
+              "deb": "debs/rootful.deb",
+              "size": 1706698,
+              "sha256": "b8eb068f56362d0caee61908fab6a7ce623d18955d9447d7299e770f8fe70895"
+            },
+            "rootless": {
+              "arch": "iphoneos-arm64",
+              "depends": [
+                "ellekit"
+              ],
+              "deb": "debs/rootless.deb",
+              "size": 1706718,
+              "sha256": "17a4869748ef5830e931a0df6eb7acff1543cb1a4569f6cc12d23727711c58d7"
+            },
+            "roothide": {
+              "arch": "iphoneos-arm64e",
+              "depends": [
+                "ellekit"
+              ],
+              "deb": "debs/roothide.deb",
+              "size": 1706698,
+              "sha256": "8d7dbc47be2a38790e9a3c5a0448f2fb9df49b3a0ef536048c47f78c316c3122"
+            }
+          }
+        }
+      ],
+      "linked_from": "../../default/packages/com.summer.xtcommand"
+    }
+  }
 }
