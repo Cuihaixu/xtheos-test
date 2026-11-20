@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "name": "HookApp",
+  "id": "com.test.hookapp",
+  "package": "com.test.hookapp",
+  "version": "0.1.0-2+ad6177",
+  "base_version": "0.1.0",
+  "type": "package",
+  "section": "System",
+  "envs": [
+    "rootful",
+    "rootless",
+    "roothide"
+  ],
+  "author": "cuihaixu <cuihaixu@126.com>",
+  "authors": "cuihaixu <cuihaixu@126.com>",
+  "maintainer": "cuihaixu <cuihaixu@126.com>",
+  "description": "HookApp package for iOS",
+  "depends": "com.test.demokit (>= 0.1.0), mobilesubstrate",
+  "git_commit": "3965ee",
+  "built_at": "2026-11-20T16:20:39Z",
+  "origin": {
+    "kind": "dist",
+    "from": "/private/tmp/xtheos_e2e/HookApp",
+    "commit": "",
+    "machine": "cu-cu-Mac-mini-035059",
+    "time": "2026-11-20T16:20:39Z"
+  },
+  "hash": "dc78af68639d659a3fa6c8a9b10682c96b64f8ea16d07bf8df71d7b162c43a57",
+  "has_framework": false,
+  "has_skills": false,
+  "release_notes": "# HookApp 0.1.0\n\n## 新功能\n- 项目脚手架初始化创建: HookApp\n\n## 改进\n- 建立标准编译与三环境打包流水线\n\n## 修复\n- 无\n\n## 升级与兼容性\n- 支持 iOS 14.0 ~ 17.x (兼容 rootful、rootless 与 roothide 三种环境)",
+  "environments": {
+    "rootful": {
+      "arch": "iphoneos-arm",
+      "depends": [
+        "com.test.demokit (>= 0.1.0)",
+        "mobilesubstrate"
+      ],
+      "deb": "debs/com.test.hookapp_0.1.0-2+ad6177_iphoneos-arm.deb",
+      "size": 4542,
+      "sha256": "d5294f52d535fe62d5bffc938ff75e0c3692ef388fb6a559a6bff8ab4300010d"
+    },
+    "rootless": {
+      "arch": "iphoneos-arm64",
+      "depends": [
+        "com.test.demokit (>= 0.1.0)",
+        "ellekit"
+      ],
+      "deb": "debs/com.test.hookapp_0.1.0-2+ad6177_iphoneos-arm64.deb",
+      "size": 4574,
+      "sha256": "03c9023fc72908fbe18783f9e5b629094a4afc66ce3ceb7c2c83f14f01bdbce8"
+    },
+    "roothide": {
+      "arch": "iphoneos-arm64e",
+      "depends": [
+        "com.test.demokit (>= 0.1.0)",
+        "ellekit"
+      ],
+      "deb": "debs/com.test.hookapp_0.1.0-2+ad6177_iphoneos-arm64e.deb",
+      "size": 4540,
+      "sha256": "981484056bc45a8aaa5fc802466ff227ade48de48c5f5ff54ede46f6ae43f126"
+    }
+  }
+}
