@@ -3,15 +3,15 @@
   "name": "test",
   "description": "xtheos package repository",
   "keep_versions": 4,
-  "hash": "1ab6f1eb23c72871198d7968826af171b1fd1be89f735779f39f5f71acfb066f",
-  "updated_at": "2026-11-19T15:19:43Z",
+  "hash": "c6902b4c2fb44c3e16e97588fb02f15420652ad234d6777eeb01b7d5bb7e990d",
+  "updated_at": "2026-11-20T15:32:58Z",
   "packages": {
     "com.cu.clientconsumer": {
       "id": "com.cu.clientconsumer",
       "name": "ClientConsumer",
       "current_version": "0.1.0-4+c11689",
       "base_version": "0.1.0",
-      "hash": "1bd89ecfcf70793addc91650f1a01dcfec526a553e65f126f59794650dd39e4d",
+      "hash": "1df60a612bbdf48cd49a90b3d1ef635f49ce08363337fff093e34cffa6696557",
       "section": "System",
       "description": "ClientConsumer package for iOS",
       "author": "cuihaixu <cuihaixu@126.com>",
@@ -25,7 +25,7 @@
           "depends": [
             "mobilesubstrate"
           ],
-          "deb": "debs/rootful.deb",
+          "deb": "debs/com.cu.clientconsumer_0.1.0-4+c11689_iphoneos-arm.deb",
           "size": 4588,
           "sha256": "2f7010db51a69ec9db9524f0a0d4c64df3e5273bb23a66b2eb4e031c6dc53a8a"
         },
@@ -34,7 +34,7 @@
           "depends": [
             "mobilesubstrate"
           ],
-          "deb": "debs/rootless.deb",
+          "deb": "debs/com.cu.clientconsumer_0.1.0-4+c11689_iphoneos-arm64.deb",
           "size": 4624,
           "sha256": "ff0b0643b38e9e478b489f8225fa3aa52dc32c2c8aea28339f87073142253890"
         },
@@ -43,7 +43,7 @@
           "depends": [
             "mobilesubstrate"
           ],
-          "deb": "debs/roothide.deb",
+          "deb": "debs/com.cu.clientconsumer_0.1.0-4+c11689_iphoneos-arm64e.deb",
           "size": 4594,
           "sha256": "b55b7bc4967c8ffe3ce1563b1797b674c058ad5e2b7f2230e90c99cf1d22b79d"
         }
@@ -52,7 +52,7 @@
         {
           "version": "0.1.0-4+c11689",
           "base_version": "0.1.0",
-          "hash": "1bd89ecfcf70793addc91650f1a01dcfec526a553e65f126f59794650dd39e4d",
+          "hash": "1df60a612bbdf48cd49a90b3d1ef635f49ce08363337fff093e34cffa6696557",
           "release_notes": "# ClientConsumer 0.1.0\n\n## 新功能\n- 项目脚手架初始化创建: ClientConsumer\n\n## 改进\n- 建立标准编译与三环境打包流水线\n\n## 修复\n- 无\n\n## 升级与兼容性\n- 支持 iOS 14.0 ~ 17.x (兼容 rootful、rootless 与 roothide 三种环境)",
           "has_framework": false,
           "has_skills": false,
@@ -62,7 +62,7 @@
               "depends": [
                 "mobilesubstrate"
               ],
-              "deb": "debs/rootful.deb",
+              "deb": "debs/com.cu.clientconsumer_0.1.0-4+c11689_iphoneos-arm.deb",
               "size": 4588,
               "sha256": "2f7010db51a69ec9db9524f0a0d4c64df3e5273bb23a66b2eb4e031c6dc53a8a"
             },
@@ -71,7 +71,7 @@
               "depends": [
                 "mobilesubstrate"
               ],
-              "deb": "debs/rootless.deb",
+              "deb": "debs/com.cu.clientconsumer_0.1.0-4+c11689_iphoneos-arm64.deb",
               "size": 4624,
               "sha256": "ff0b0643b38e9e478b489f8225fa3aa52dc32c2c8aea28339f87073142253890"
             },
@@ -80,7 +80,7 @@
               "depends": [
                 "mobilesubstrate"
               ],
-              "deb": "debs/roothide.deb",
+              "deb": "debs/com.cu.clientconsumer_0.1.0-4+c11689_iphoneos-arm64e.deb",
               "size": 4594,
               "sha256": "b55b7bc4967c8ffe3ce1563b1797b674c058ad5e2b7f2230e90c99cf1d22b79d"
             }
@@ -93,7 +93,7 @@
       "name": "SandDemoKit",
       "current_version": "0.1.0-6+150df3",
       "base_version": "0.1.0",
-      "hash": "8e188abf3dfbd7b49ae7855e726e5cf314f96a3bdc41a99cf21b610a75d41a41",
+      "hash": "0b82e93797154422252b0604809dd3a3f2916ca3151ad36fed444d1ce6278e6e",
       "section": "Utilities",
       "description": "Sandbox test framework for xtheos repo validation",
       "author": "Cu <cu@iospkg.cn>",
@@ -107,7 +107,7 @@
           "depends": [
             "mobilesubstrate"
           ],
-          "deb": "debs/rootful.deb",
+          "deb": "debs/com.cu.sanddemokit_0.1.0-6+150df3_iphoneos-arm.deb",
           "size": 4630,
           "sha256": "8c69179e3044636141897895de7d1cc11c7d573d946075abca57d9ec53fe009a"
         },
@@ -116,7 +116,7 @@
           "depends": [
             "ellekit"
           ],
-          "deb": "debs/rootless.deb",
+          "deb": "debs/com.cu.sanddemokit_0.1.0-6+150df3_iphoneos-arm64.deb",
           "size": 4666,
           "sha256": "a5ae3307168f357e4a4e0aa8ad619d174f2ab18065965e13ac693ff8888560ff"
         },
@@ -125,7 +125,7 @@
           "depends": [
             "ellekit"
           ],
-          "deb": "debs/roothide.deb",
+          "deb": "debs/com.cu.sanddemokit_0.1.0-6+150df3_iphoneos-arm64e.deb",
           "size": 4626,
           "sha256": "7ecd46a3fd56abcf63955363c6caad9fc6cf0e6dbaecb8f7caa4136d54aad165"
         }
@@ -134,7 +134,7 @@
         {
           "version": "0.1.0-6+150df3",
           "base_version": "0.1.0",
-          "hash": "8e188abf3dfbd7b49ae7855e726e5cf314f96a3bdc41a99cf21b610a75d41a41",
+          "hash": "0b82e93797154422252b0604809dd3a3f2916ca3151ad36fed444d1ce6278e6e",
           "release_notes": "# SandDemoKit 0.1.0\n\n## 新功能\n- 项目脚手架初始化创建: SandDemoKit\n\n## 改进\n- 建立标准编译与三环境打包流水线\n\n## 修复\n- 无\n\n## 升级与兼容性\n- 支持 iOS 14.0 ~ 17.x (兼容 rootful、rootless 与 roothide 三种环境)",
           "has_framework": true,
           "has_skills": false,
@@ -144,7 +144,7 @@
               "depends": [
                 "mobilesubstrate"
               ],
-              "deb": "debs/rootful.deb",
+              "deb": "debs/com.cu.sanddemokit_0.1.0-6+150df3_iphoneos-arm.deb",
               "size": 4630,
               "sha256": "8c69179e3044636141897895de7d1cc11c7d573d946075abca57d9ec53fe009a"
             },
@@ -153,7 +153,7 @@
               "depends": [
                 "ellekit"
               ],
-              "deb": "debs/rootless.deb",
+              "deb": "debs/com.cu.sanddemokit_0.1.0-6+150df3_iphoneos-arm64.deb",
               "size": 4666,
               "sha256": "a5ae3307168f357e4a4e0aa8ad619d174f2ab18065965e13ac693ff8888560ff"
             },
@@ -162,7 +162,7 @@
               "depends": [
                 "ellekit"
               ],
-              "deb": "debs/roothide.deb",
+              "deb": "debs/com.cu.sanddemokit_0.1.0-6+150df3_iphoneos-arm64e.deb",
               "size": 4626,
               "sha256": "7ecd46a3fd56abcf63955363c6caad9fc6cf0e6dbaecb8f7caa4136d54aad165"
             }
@@ -252,6 +252,88 @@
         }
       ],
       "linked_from": "../../default/packages/com.summer.xtcommand"
+    },
+    "com.test.demokit": {
+      "id": "com.test.demokit",
+      "name": "DemoKit",
+      "current_version": "0.1.0-1+d5866a",
+      "base_version": "0.1.0",
+      "hash": "07a1614b77577c2f233f30acf819f9ae49f0bd60ffabb8acfde31e0db0ac4aec",
+      "section": "Utilities",
+      "description": "DemoKit package for iOS",
+      "author": "cuihaixu <cuihaixu@126.com>",
+      "maintainer": "cuihaixu <cuihaixu@126.com>",
+      "has_framework": true,
+      "has_skills": false,
+      "release_notes": "# DemoKit 0.1.0\n\n## 新功能\n- 项目脚手架初始化创建: DemoKit\n\n## 改进\n- 建立标准编译与三环境打包流水线\n\n## 修复\n- 无\n\n## 升级与兼容性\n- 支持 iOS 14.0 ~ 17.x (兼容 rootful、rootless 与 roothide 三种环境)",
+      "environments": {
+        "rootful": {
+          "arch": "iphoneos-arm",
+          "depends": [
+            "mobilesubstrate"
+          ],
+          "deb": "debs/com.test.demokit_0.1.0-1+d5866a_iphoneos-arm.deb",
+          "size": 4578,
+          "sha256": "a99a14d80582cda7e52ebfe24e3594d1cf3f2e0af20436f403dffd75a0f9ceff"
+        },
+        "rootless": {
+          "arch": "iphoneos-arm64",
+          "depends": [
+            "ellekit"
+          ],
+          "deb": "debs/com.test.demokit_0.1.0-1+d5866a_iphoneos-arm64.deb",
+          "size": 4600,
+          "sha256": "09ec3ee5f36919f37f5e660966488e5db3090cfb6f975eddaa1a117049cab3f4"
+        },
+        "roothide": {
+          "arch": "iphoneos-arm64e",
+          "depends": [
+            "ellekit"
+          ],
+          "deb": "debs/com.test.demokit_0.1.0-1+d5866a_iphoneos-arm64e.deb",
+          "size": 4576,
+          "sha256": "8699e5b190cd503f0afcab0e0d44763af198dc413eb8c2265c70336440eb87b0"
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0-1+d5866a",
+          "base_version": "0.1.0",
+          "hash": "07a1614b77577c2f233f30acf819f9ae49f0bd60ffabb8acfde31e0db0ac4aec",
+          "release_notes": "# DemoKit 0.1.0\n\n## 新功能\n- 项目脚手架初始化创建: DemoKit\n\n## 改进\n- 建立标准编译与三环境打包流水线\n\n## 修复\n- 无\n\n## 升级与兼容性\n- 支持 iOS 14.0 ~ 17.x (兼容 rootful、rootless 与 roothide 三种环境)",
+          "has_framework": true,
+          "has_skills": false,
+          "environments": {
+            "rootful": {
+              "arch": "iphoneos-arm",
+              "depends": [
+                "mobilesubstrate"
+              ],
+              "deb": "debs/com.test.demokit_0.1.0-1+d5866a_iphoneos-arm.deb",
+              "size": 4578,
+              "sha256": "a99a14d80582cda7e52ebfe24e3594d1cf3f2e0af20436f403dffd75a0f9ceff"
+            },
+            "rootless": {
+              "arch": "iphoneos-arm64",
+              "depends": [
+                "ellekit"
+              ],
+              "deb": "debs/com.test.demokit_0.1.0-1+d5866a_iphoneos-arm64.deb",
+              "size": 4600,
+              "sha256": "09ec3ee5f36919f37f5e660966488e5db3090cfb6f975eddaa1a117049cab3f4"
+            },
+            "roothide": {
+              "arch": "iphoneos-arm64e",
+              "depends": [
+                "ellekit"
+              ],
+              "deb": "debs/com.test.demokit_0.1.0-1+d5866a_iphoneos-arm64e.deb",
+              "size": 4576,
+              "sha256": "8699e5b190cd503f0afcab0e0d44763af198dc413eb8c2265c70336440eb87b0"
+            }
+          }
+        }
+      ]
     }
   }
 }

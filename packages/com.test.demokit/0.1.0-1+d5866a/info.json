@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "name": "DemoKit",
+  "id": "com.test.demokit",
+  "package": "com.test.demokit",
+  "version": "0.1.0-1+d5866a",
+  "base_version": "0.1.0",
+  "type": "dynamic",
+  "section": "Utilities",
+  "envs": [
+    "rootful",
+    "rootless",
+    "roothide"
+  ],
+  "author": "cuihaixu <cuihaixu@126.com>",
+  "authors": "cuihaixu <cuihaixu@126.com>",
+  "maintainer": "cuihaixu <cuihaixu@126.com>",
+  "description": "DemoKit package for iOS",
+  "depends": "mobilesubstrate",
+  "git_commit": "d5866a",
+  "built_at": "2026-11-20T15:32:58Z",
+  "origin": {
+    "kind": "dist",
+    "from": "/private/tmp/xtheos_e2e/DemoKit",
+    "commit": "d5866ac",
+    "machine": "cu-cu-Mac-mini-035059",
+    "time": "2026-11-20T15:32:58Z"
+  },
+  "install_name": "/usr/lib/DemoKit.framework/DemoKit",
+  "hash": "07a1614b77577c2f233f30acf819f9ae49f0bd60ffabb8acfde31e0db0ac4aec",
+  "has_framework": true,
+  "has_skills": false,
+  "release_notes": "# DemoKit 0.1.0\n\n## 新功能\n- 项目脚手架初始化创建: DemoKit\n\n## 改进\n- 建立标准编译与三环境打包流水线\n\n## 修复\n- 无\n\n## 升级与兼容性\n- 支持 iOS 14.0 ~ 17.x (兼容 rootful、rootless 与 roothide 三种环境)",
+  "environments": {
+    "rootful": {
+      "arch": "iphoneos-arm",
+      "depends": [
+        "mobilesubstrate"
+      ],
+      "deb": "debs/com.test.demokit_0.1.0-1+d5866a_iphoneos-arm.deb",
+      "size": 4578,
+      "sha256": "a99a14d80582cda7e52ebfe24e3594d1cf3f2e0af20436f403dffd75a0f9ceff"
+    },
+    "rootless": {
+      "arch": "iphoneos-arm64",
+      "depends": [
+        "ellekit"
+      ],
+      "deb": "debs/com.test.demokit_0.1.0-1+d5866a_iphoneos-arm64.deb",
+      "size": 4600,
+      "sha256": "09ec3ee5f36919f37f5e660966488e5db3090cfb6f975eddaa1a117049cab3f4"
+    },
+    "roothide": {
+      "arch": "iphoneos-arm64e",
+      "depends": [
+        "ellekit"
+      ],
+      "deb": "debs/com.test.demokit_0.1.0-1+d5866a_iphoneos-arm64e.deb",
+      "size": 4576,
+      "sha256": "8699e5b190cd503f0afcab0e0d44763af198dc413eb8c2265c70336440eb87b0"
+    }
+  }
+}
