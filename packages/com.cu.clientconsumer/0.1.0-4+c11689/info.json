@@ -26,7 +26,7 @@
     "machine": "cu-cu-Mac-mini-035059",
     "time": "2026-11-19T15:19:14Z"
   },
-  "hash": "1bd89ecfcf70793addc91650f1a01dcfec526a553e65f126f59794650dd39e4d",
+  "hash": "1df60a612bbdf48cd49a90b3d1ef635f49ce08363337fff093e34cffa6696557",
   "has_framework": false,
   "has_skills": false,
   "release_notes": "# ClientConsumer 0.1.0\n\n## 新功能\n- 项目脚手架初始化创建: ClientConsumer\n\n## 改进\n- 建立标准编译与三环境打包流水线\n\n## 修复\n- 无\n\n## 升级与兼容性\n- 支持 iOS 14.0 ~ 17.x (兼容 rootful、rootless 与 roothide 三种环境)",
@@ -36,7 +36,7 @@
       "depends": [
         "mobilesubstrate"
       ],
-      "deb": "debs/rootful.deb",
+      "deb": "debs/com.cu.clientconsumer_0.1.0-4+c11689_iphoneos-arm.deb",
       "size": 4588,
       "sha256": "2f7010db51a69ec9db9524f0a0d4c64df3e5273bb23a66b2eb4e031c6dc53a8a"
     },
@@ -45,7 +45,7 @@
       "depends": [
         "mobilesubstrate"
       ],
-      "deb": "debs/rootless.deb",
+      "deb": "debs/com.cu.clientconsumer_0.1.0-4+c11689_iphoneos-arm64.deb",
       "size": 4624,
       "sha256": "ff0b0643b38e9e478b489f8225fa3aa52dc32c2c8aea28339f87073142253890"
     },
@@ -54,7 +54,7 @@
       "depends": [
         "mobilesubstrate"
       ],
-      "deb": "debs/roothide.deb",
+      "deb": "debs/com.cu.clientconsumer_0.1.0-4+c11689_iphoneos-arm64e.deb",
       "size": 4594,
       "sha256": "b55b7bc4967c8ffe3ce1563b1797b674c058ad5e2b7f2230e90c99cf1d22b79d"
     }

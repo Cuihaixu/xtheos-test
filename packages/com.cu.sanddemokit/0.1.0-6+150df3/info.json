@@ -27,7 +27,7 @@
     "time": "2026-11-19T15:10:14Z"
   },
   "install_name": "/usr/lib/SandDemoKit.framework/SandDemoKit",
-  "hash": "8e188abf3dfbd7b49ae7855e726e5cf314f96a3bdc41a99cf21b610a75d41a41",
+  "hash": "0b82e93797154422252b0604809dd3a3f2916ca3151ad36fed444d1ce6278e6e",
   "has_framework": true,
   "has_skills": false,
   "release_notes": "# SandDemoKit 0.1.0\n\n## 新功能\n- 项目脚手架初始化创建: SandDemoKit\n\n## 改进\n- 建立标准编译与三环境打包流水线\n\n## 修复\n- 无\n\n## 升级与兼容性\n- 支持 iOS 14.0 ~ 17.x (兼容 rootful、rootless 与 roothide 三种环境)",
@@ -37,7 +37,7 @@
       "depends": [
         "mobilesubstrate"
       ],
-      "deb": "debs/rootful.deb",
+      "deb": "debs/com.cu.sanddemokit_0.1.0-6+150df3_iphoneos-arm.deb",
       "size": 4630,
       "sha256": "8c69179e3044636141897895de7d1cc11c7d573d946075abca57d9ec53fe009a"
     },
@@ -46,7 +46,7 @@
       "depends": [
         "ellekit"
       ],
-      "deb": "debs/rootless.deb",
+      "deb": "debs/com.cu.sanddemokit_0.1.0-6+150df3_iphoneos-arm64.deb",
       "size": 4666,
       "sha256": "a5ae3307168f357e4a4e0aa8ad619d174f2ab18065965e13ac693ff8888560ff"
     },
@@ -55,7 +55,7 @@
       "depends": [
         "ellekit"
       ],
-      "deb": "debs/roothide.deb",
+      "deb": "debs/com.cu.sanddemokit_0.1.0-6+150df3_iphoneos-arm64e.deb",
       "size": 4626,
       "sha256": "7ecd46a3fd56abcf63955363c6caad9fc6cf0e6dbaecb8f7caa4136d54aad165"
     }
