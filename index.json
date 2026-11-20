@@ -3,8 +3,8 @@
   "name": "test",
   "description": "xtheos package repository",
   "keep_versions": 4,
-  "hash": "ab6b0240f4eac17b154b65c1271c54c8b2fda4376bf34e0926f0219f44bd3fca",
-  "updated_at": "2026-11-20T15:43:42Z",
+  "hash": "a065ad4753cf711ae365249595c0a1131397b50d1148ff063a2160f570ba26b8",
+  "updated_at": "2026-11-20T16:20:39Z",
   "packages": {
     "com.cu.clientconsumer": {
       "id": "com.cu.clientconsumer",
@@ -338,9 +338,9 @@
     "com.test.hookapp": {
       "id": "com.test.hookapp",
       "name": "HookApp",
-      "current_version": "0.1.0-1+0a5020",
+      "current_version": "0.1.0-2+ad6177",
       "base_version": "0.1.0",
-      "hash": "9c64a6e16a1bc327dece8d1d369f893aabb13c29f6ee40f28ade73c68288b014",
+      "hash": "dc78af68639d659a3fa6c8a9b10682c96b64f8ea16d07bf8df71d7b162c43a57",
       "section": "System",
       "description": "HookApp package for iOS",
       "author": "cuihaixu <cuihaixu@126.com>",
@@ -352,32 +352,75 @@
         "rootful": {
           "arch": "iphoneos-arm",
           "depends": [
+            "com.test.demokit (>= 0.1.0)",
             "mobilesubstrate"
           ],
-          "deb": "debs/com.test.hookapp_0.1.0-1+0a5020_iphoneos-arm.deb",
-          "size": 4526,
-          "sha256": "fe76dbc0c4c5a81c0d05f6ca61f4be1b486c1205cb4d60a7844508b0f8503c12"
+          "deb": "debs/com.test.hookapp_0.1.0-2+ad6177_iphoneos-arm.deb",
+          "size": 4542,
+          "sha256": "d5294f52d535fe62d5bffc938ff75e0c3692ef388fb6a559a6bff8ab4300010d"
         },
         "rootless": {
           "arch": "iphoneos-arm64",
           "depends": [
-            "mobilesubstrate"
+            "com.test.demokit (>= 0.1.0)",
+            "ellekit"
           ],
-          "deb": "debs/com.test.hookapp_0.1.0-1+0a5020_iphoneos-arm64.deb",
-          "size": 4560,
-          "sha256": "1ccfaa92bed051f97db4217ba81d92e1b00cedabd76ab8683d75edba00a9f0be"
+          "deb": "debs/com.test.hookapp_0.1.0-2+ad6177_iphoneos-arm64.deb",
+          "size": 4574,
+          "sha256": "03c9023fc72908fbe18783f9e5b629094a4afc66ce3ceb7c2c83f14f01bdbce8"
         },
         "roothide": {
           "arch": "iphoneos-arm64e",
           "depends": [
-            "mobilesubstrate"
+            "com.test.demokit (>= 0.1.0)",
+            "ellekit"
           ],
-          "deb": "debs/com.test.hookapp_0.1.0-1+0a5020_iphoneos-arm64e.deb",
-          "size": 4526,
-          "sha256": "487eda4801a14ecb5131981beeda058e854edd0e29bafc9a73e227e59f10cf45"
+          "deb": "debs/com.test.hookapp_0.1.0-2+ad6177_iphoneos-arm64e.deb",
+          "size": 4540,
+          "sha256": "981484056bc45a8aaa5fc802466ff227ade48de48c5f5ff54ede46f6ae43f126"
         }
       },
       "versions": [
+        {
+          "version": "0.1.0-2+ad6177",
+          "base_version": "0.1.0",
+          "hash": "dc78af68639d659a3fa6c8a9b10682c96b64f8ea16d07bf8df71d7b162c43a57",
+          "release_notes": "# HookApp 0.1.0\n\n## 新功能\n- 项目脚手架初始化创建: HookApp\n\n## 改进\n- 建立标准编译与三环境打包流水线\n\n## 修复\n- 无\n\n## 升级与兼容性\n- 支持 iOS 14.0 ~ 17.x (兼容 rootful、rootless 与 roothide 三种环境)",
+          "has_framework": false,
+          "has_skills": false,
+          "environments": {
+            "rootful": {
+              "arch": "iphoneos-arm",
+              "depends": [
+                "com.test.demokit (>= 0.1.0)",
+                "mobilesubstrate"
+              ],
+              "deb": "debs/com.test.hookapp_0.1.0-2+ad6177_iphoneos-arm.deb",
+              "size": 4542,
+              "sha256": "d5294f52d535fe62d5bffc938ff75e0c3692ef388fb6a559a6bff8ab4300010d"
+            },
+            "rootless": {
+              "arch": "iphoneos-arm64",
+              "depends": [
+                "com.test.demokit (>= 0.1.0)",
+                "ellekit"
+              ],
+              "deb": "debs/com.test.hookapp_0.1.0-2+ad6177_iphoneos-arm64.deb",
+              "size": 4574,
+              "sha256": "03c9023fc72908fbe18783f9e5b629094a4afc66ce3ceb7c2c83f14f01bdbce8"
+            },
+            "roothide": {
+              "arch": "iphoneos-arm64e",
+              "depends": [
+                "com.test.demokit (>= 0.1.0)",
+                "ellekit"
+              ],
+              "deb": "debs/com.test.hookapp_0.1.0-2+ad6177_iphoneos-arm64e.deb",
+              "size": 4540,
+              "sha256": "981484056bc45a8aaa5fc802466ff227ade48de48c5f5ff54ede46f6ae43f126"
+            }
+          }
+        },
         {
           "version": "0.1.0-1+0a5020",
           "base_version": "0.1.0",

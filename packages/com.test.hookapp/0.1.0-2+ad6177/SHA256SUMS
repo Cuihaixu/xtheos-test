@@ -1,0 +1,5 @@
+2a2629f343b9b610d244e7efb80bf04d8cbcd2f41f89a79b4fe8340a8cbdf3f2  RELEASE_NOTES.md
+d5294f52d535fe62d5bffc938ff75e0c3692ef388fb6a559a6bff8ab4300010d  debs/com.test.hookapp_0.1.0-2+ad6177_iphoneos-arm.deb
+03c9023fc72908fbe18783f9e5b629094a4afc66ce3ceb7c2c83f14f01bdbce8  debs/com.test.hookapp_0.1.0-2+ad6177_iphoneos-arm64.deb
+981484056bc45a8aaa5fc802466ff227ade48de48c5f5ff54ede46f6ae43f126  debs/com.test.hookapp_0.1.0-2+ad6177_iphoneos-arm64e.deb
+5076daa38a11ceb5e3c45d0c3d2238b8eaad88c0e8f43e772378356720d02422  info.json
